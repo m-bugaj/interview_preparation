@@ -1,0 +1,1 @@
+This repository contains my solutions to tasks from various platforms (HackerRank, CodeSignal, LeetCode, etc.) to train programming languages, algorithms and data structures. I do these exercises to train my skills for live coding for job interviews.
