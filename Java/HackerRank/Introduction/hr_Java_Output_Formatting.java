@@ -44,6 +44,7 @@ public class hr_Java_Output_Formatting {
                 //Complete this line
                 System.out.printf("%-15s%03d%n", s1, x);
             }
+            sc.close();
             System.out.println("================================");
 
     }
