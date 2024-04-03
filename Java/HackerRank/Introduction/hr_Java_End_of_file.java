@@ -1,4 +1,5 @@
 // TASK:
+
 // "In computing, End Of File (commonly abbreviated EOF) is a condition in a computer operating system where no more data can be read from a data source." — (Wikipedia: End-of-file)
 
 // The challenge here is to read n lines of input until you reach EOF, then number and print all  lines of content.
