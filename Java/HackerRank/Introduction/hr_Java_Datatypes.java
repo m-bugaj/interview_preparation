@@ -69,5 +69,6 @@ public class hr_Java_Datatypes {
             }
 
         }
+        sc.close();
     }
 }
