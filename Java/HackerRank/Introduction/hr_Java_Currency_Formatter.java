@@ -36,7 +36,8 @@ public class hr_Java_Currency_Formatter {
         
         // Write your code here.
         String us = NumberFormat.getCurrencyInstance(Locale.US).format(payment);
-        String india = NumberFormat.getCurrencyInstance(new Locale("en", "IN")).format(payment);
+        Locale indiaLocale = new Locale.Builder().setLanguage("en").setRegion("IN").build();
+        String india = NumberFormat.getCurrencyInstance(indiaLocale).format(payment);
         String china = NumberFormat.getCurrencyInstance(Locale.CHINA).format(payment);
         String france = NumberFormat.getCurrencyInstance(Locale.FRANCE).format(payment);
         
