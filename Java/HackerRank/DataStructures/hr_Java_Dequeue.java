@@ -34,7 +34,6 @@ public class hr_Java_Dequeue {
         Set<Integer> uniqueElements = new HashSet<>();
         int n = in.nextInt();
         int m = in.nextInt();
-        int l = 0;
          int maxUnique = 0;
 
         for (int i = 0; i < n; i++) {
